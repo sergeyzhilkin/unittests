@@ -7,7 +7,7 @@ class TestMyModule(unittest.TestCase):
         self.assertEqual(mymodule.foo(), 'foo')
     
     def test_bar(self):
-        self.assertEqual(mymodule.bar(), 'baz')
+        self.assertEqual(mymodule.bar(), 'bar')
 
 
 class TestUserStorage(unittest.TestCase):
